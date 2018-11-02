@@ -42,6 +42,12 @@ Route::get('testHiddenRoute/:name','index/Testmiddleware/testHiddenRoute?read=5'
 Route::resource('myRestFul','index/TestRestFul');
 
 
+//  获取当前请求的变量
+Route::post('testParam','index/Testinputrequest/testParam');
+
+
+Route::get('myHeader','index/Testinputrequest/myHeader');
+
 return [
 
 ];
