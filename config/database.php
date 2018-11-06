@@ -60,4 +60,13 @@ return [
     'break_reconnect' => false,
     // 断线标识字符串
     'break_match_str' => [],
+
+    /**
+     *   如果需要多数据连接时，就用以下方式去连接数据库
+     */
+    // db_config1
+    'db_config1' => [],
+
+    //  db_config2
+    'db_config2' => []
 ];

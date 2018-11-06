@@ -45,7 +45,7 @@ Route::resource('myRestFul','index/TestRestFul');
 //  获取当前请求的变量
 Route::post('testParam','index/Testinputrequest/testParam');
 
-
+//  HTTP请求头信息
 Route::get('myHeader','index/Testinputrequest/myHeader');
 
 return [
